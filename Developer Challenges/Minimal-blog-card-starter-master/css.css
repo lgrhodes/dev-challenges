@@ -1,0 +1,71 @@
+*{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 0px;
+    background-color: #FAF9F6;
+    color: #7c808a;
+  }
+
+  .card {
+    max-width: 336px;
+    margin: 164px auto;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 8px 8px 20px 0px rgba(35, 35, 35, 0.08);
+    border-radius: 16px;
+  }
+
+  .card * {
+    background-color: white;
+  }
+  
+  .cardImg {
+    border-radius: 8px;
+  }
+
+  .cardTitle {
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+    color: #20293A;
+  }
+
+  .cardText {
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+  }
+
+  .cardAuthor {
+    font-size: 0.75rem;
+    margin-top: 20px;
+  }
+
+  .cardTag {
+    font-size: 0.625rem;
+    color: #7C19EE;
+    background-color: #F2EAFD;
+    margin: 16px 0px 16px 0px;
+    padding: 4px 16px 4px 16px;
+    border-radius: 16px;
+    display: inline-block;
+  }
+
+  hr {
+    margin: 16px -16px;
+    border-top: 1px solid #E5EAF0;
+  }
+
+  footer {
+    padding: 1rem;
+    margin: 200px 0px 0px 0px;
+    background-color: #264653;
+    color: white;
+    text-align: center;
+}    
+
+footer>a {
+  color: coral;
+  background-color: #264653;
+}
